@@ -1,17 +1,17 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+baseurl: /menufacturers-landing/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Plate of Nations
+email: menufacturers.info@gmail.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Selena Ando
   pic: 1
-  position: Lead Designer
+  position: UX Design
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Jennifer Do
+  pic: jennifer-do
+  position: UX Design
   social:
     - title: twitter
       url: #
@@ -31,15 +31,37 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Grace Kim
   pic: 3
-  position: Lead Developer
+  position: PM, UX Design
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
     - title: google-plus
+      url: #
+      
+- name: Samuel Taylor
+  pic: 1
+  position: UX Design
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Jack Weinstein
+  pic: 2
+  position: UX Design
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
