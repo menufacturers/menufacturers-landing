@@ -175,6 +175,18 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+/* Navbar heading image */
+/* .navbar-default .navbar-brand img {
+    width: 35px;
+} */
+
+.logo {
+    background-image: url(img/logos/pon-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 00px 300px 0px 0px;
+}
+
 .navbar-default .navbar-brand {
     font-family: "Philosopher","Helvetica Neue",Helvetica,Arial,cursive;
     font-weight: 700;
