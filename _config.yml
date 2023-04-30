@@ -10,7 +10,7 @@ description: "Write an awesome description for your new site here. You can edit 
 # Team names, titles and social links
 people:
 - name: Selena Ando
-  pic: 1
+  pic: selena-ando
   position: UX Design
   social:
     - title: twitter
@@ -32,7 +32,7 @@ people:
       url: #
 
 - name: Grace Kim
-  pic: 3
+  pic: grace-kim
   position: PM, UX Design
   social:
     - title: twitter
