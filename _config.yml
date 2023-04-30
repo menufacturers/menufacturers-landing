@@ -43,7 +43,7 @@ people:
       url: #
       
 - name: Samuel Taylor
-  pic: 1
+  pic: samuel-taylor
   position: UX Design
   social:
     - title: twitter
@@ -54,7 +54,7 @@ people:
       url: #
 
 - name: Jack Weinstein
-  pic: 2
+  pic: jack-weinstein
   position: UX Design
   social:
     - title: twitter
