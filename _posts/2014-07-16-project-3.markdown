@@ -4,12 +4,12 @@ subtitle: Track Your Stamps
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: passport-page.png
+thumbnail: passport-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: We provide “Passport” tracker cards that you can use to collect stamps from the restaurants you visit.
+Commemorate your trip around the world with a special souvenir to remind you of your journey! We also provided a digital passport version that allows you to link your phone number and unique stamp IDs found at PON restaurants to easily access your Passport anytime and anywhere.
 ---
