@@ -724,7 +724,19 @@ section h3.section-subheading {
     }
 }
 
+.team-profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -743,6 +755,7 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0;
 }
+
 aside.clients {
     margin: 30px 0;
 }
