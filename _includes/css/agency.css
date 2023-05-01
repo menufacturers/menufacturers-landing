@@ -11,6 +11,8 @@ body {
 }
 
 .text-muted {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
     color: #{{ site.data.template.color.muted }};
 }
 
@@ -19,7 +21,7 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
@@ -52,9 +54,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
+    /* text-transform: uppercase; */
+    font-family: 'Candal', sans-serif;
 }
 
 .about-row {
@@ -195,7 +196,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #222;
@@ -293,7 +294,7 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .navbar-default .nav li a:hover,
@@ -376,7 +377,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: 'Crete Round', serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -384,10 +385,9 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    /* text-transform: uppercase; */
+    font-family: 'Candal', sans-serif;
     font-size: 50px;
-    font-weight: 700;
     line-height: 50px;
 }
 
@@ -399,7 +399,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: 'Crete Round', serif;
         font-size: 30px;
         font-style: italic;
         line-height: 40px;
@@ -407,8 +407,8 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
+        /* text-transform: uppercase; */
+        font-family: 'Candal', sans-serif;
         font-size: 60px;
         font-weight: 700;
         line-height: 75px;
@@ -422,7 +422,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 section h3.section-subheading {
@@ -430,7 +430,7 @@ section h3.section-subheading {
     text-transform: none;
     color: #93834E;
     font-size: 18px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: 'Crete Round', serif;
     font-style: italic;
     font-weight: 400;
 }
@@ -509,7 +509,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: 'Crete Round', serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -826,7 +826,7 @@ footer span.copyright {
     text-transform: none;
     color: #93834E;
     font-weight: 600;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: 'Hind Madurai', sans-serif;
     line-height: 40px;
 }
 
