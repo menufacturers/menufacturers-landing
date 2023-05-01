@@ -2,31 +2,20 @@
     <aside class="clients">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/homesight.png" class="img-responsive img-centered" alt="">
-                    </a>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Project Status</h2>
+                    <p class="text-muted">This started as a student-driven Capstone project for the Information School at the University of Washington, Winter/Spring 2023. As of June 2023, this project will transition to open source for future iSchool Capstone teams to further develop (with no plans to maintain by the original team).</p>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/mlkba.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/soec.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/amazon.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/eses.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
+                {% for repo in site.resource %}
+                    <div class="col-lg-12 text-center">
+                        <ul class="list-inline social-buttons">
+                            {% for network in repo.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </aside>

@@ -22,14 +22,12 @@ people:
 
 - name: Jennifer Do
   pic: jennifer-do
-  position: UX Design
+  position: UX/UI Design
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+    - title: envelope
+      url: mailto:do.jenniferngan@gmail.com
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/jenniferngando/
 
 - name: Grace Kim
   pic: grace-kim
@@ -77,10 +75,16 @@ social:
   - title: github
     url: http://github.com/jekyll
 
+# Project links
+resource:
+- social:
+  - title: github
+    url: https://github.com/menufacturers/pon-redesign
+
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1410 NE Campus Parkway
+  - line: Seattle, WA 98195
 
 # Build settings
 markdown: kramdown
