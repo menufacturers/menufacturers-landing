@@ -19,12 +19,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -57,8 +57,36 @@ h6 {
     font-weight: 700;
 }
 
+.about-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-text {
+    margin: 30px 0;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+  
 .img-centered {
     margin: 0 auto;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+  
+.fade-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .bg-light-gray {
@@ -126,7 +154,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #222;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -136,7 +164,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #222;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -172,7 +200,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #F7F4E3;
 }
 
 /* Navbar heading image */
@@ -205,8 +233,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: transparent;
+    background-color: #BD2329;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -215,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #aa1f25;
 }
 
 .navbar-default .nav li a {
