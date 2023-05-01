@@ -38,7 +38,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #93834E;
 }
 
 a:hover,

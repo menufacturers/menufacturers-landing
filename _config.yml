@@ -13,11 +13,9 @@ people:
   pic: selena-ando
   position: UX Design
   social:
-    - title: twitter
+    - title: envelope
       url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
+    - title: linkedin
       url: #
 
 - name: Jennifer Do
@@ -33,31 +31,25 @@ people:
   pic: grace-kim
   position: PM, UX Design
   social:
-    - title: twitter
+    - title: envelope
       url: #
-    - title: facebook
-      url: #
-    - title: google-plus
+    - title: linkedin
       url: #
       
 - name: Samuel Taylor
   pic: samuel-taylor
   position: UX Design
   social:
-    - title: twitter
+    - title: envelope
       url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
+    - title: linkedin
       url: #
 
 - name: Jack Weinstein
   pic: jack-weinstein
   position: UX Design
   social:
-    - title: twitter
-      url: #
-    - title: facebook
+    - title: envelope
       url: #
     - title: linkedin
       url: #

@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: Learn More About Plate of Nations
+subtitle: Delve Into The History
 layout: default
 modal-id: 5
 date: 2014-07-14

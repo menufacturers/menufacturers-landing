@@ -1,6 +1,6 @@
 ---
 title: Press
-subtitle: Access All Latest News
+subtitle: Access Latest News
 layout: default
 modal-id: 4
 date: 2014-07-15

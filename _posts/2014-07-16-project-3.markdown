@@ -1,6 +1,6 @@
 ---
 title: Digital Passport
-subtitle: Track Your Stamps
+subtitle: Mark Your Foodie Adventure
 layout: default
 modal-id: 3
 date: 2014-07-16
