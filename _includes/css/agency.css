@@ -118,11 +118,10 @@ img {
 
 .video-container {
     position: relative;
-    padding-bottom: 45%;
+    padding-bottom: 39.375%;
     /* 16:9 aspect ratio */
-    padding-top: 25px;
     height: 0;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
   
