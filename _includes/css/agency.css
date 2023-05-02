@@ -309,11 +309,15 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #BD2329;
+    color: #93834E;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
     font-family: 'Hind Madurai', sans-serif;
+}
+
+.navbar-default .nav li a:hover {
+    background-color: #BD2329;
 }
 
 .navbar-default .nav li a:hover,
@@ -324,10 +328,9 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #BD2329;
 }
 
+.navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
@@ -342,6 +345,11 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+    }
+
+    .navbar-default .nav li a:hover {
+        color: #fed136;
+        background-color: transparent;
     }
 
     .navbar-default .nav li a,
