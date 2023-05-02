@@ -1,14 +1,14 @@
 ---
-title: Home
-subtitle: Find Event Information
+title: Information Hub
+subtitle: Find Everything In One Place
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: home.png
+thumbnail: home-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Eat out, take out, and help out during this two-week long event highlighting BIPOC, immigrant-owned restaurants in Southeast Seattle.
+description: Eat out, take out, and help out during this two-week long event highlighting BIPOC, immigrant-owned restaurants in Southeast Seattle. Quickly find spotlight vendors and restaurants, as well as event information on the homepage.
 ---

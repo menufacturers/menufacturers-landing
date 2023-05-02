@@ -118,10 +118,11 @@ img {
 
 .video-container {
     position: relative;
-    padding-bottom: 39.375%;
+    padding-top: 25px;
+    padding-bottom: 50.625%;
     /* 16:9 aspect ratio */
     height: 0;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
   
@@ -133,6 +134,13 @@ img {
     height: 100%;
     border: 0;
 }  
+
+@media(min-width:768px) {
+    .video-container {
+        padding-bottom: 45%;
+        width: 80%;
+    }
+}
 
 .fade-up {
     opacity: 0;
@@ -152,14 +160,6 @@ img {
 .bg-dark-beige {
     background-color: #ECE4BB;
 }
-
-/* .bg-light-gray {
-    background-color: #f7f7f7;
-}
-
-.bg-darkest-gray {
-    background-color: #222;
-} */
 
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
