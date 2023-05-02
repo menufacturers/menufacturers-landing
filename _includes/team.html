@@ -3,8 +3,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted">Team</h3>
                     <h2 class="section-heading">Meet Menufacturers</h2>
-                    <h3 class="section-subheading text-muted">We are a team of five UW Informatics students with a love for food and a fiery passion for championing digital accessibility!</h3>
+                    <p class="text-muted" style="margin-bottom: 55px;">We are a team of five UW Informatics students with a love for food and a fiery passion for championing digital accessibility!</h3>
                 </div>
             </div>
             <div class="row team-profiles">
@@ -13,7 +14,7 @@
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle fade-up" alt="" style="width:225px;height:225px;">
                         <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
+                        <p class="text-muted" style="color: #767676;">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li>

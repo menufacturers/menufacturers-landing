@@ -33,7 +33,7 @@ body {
 .text-muted {
     font-family: 'Hind Madurai', sans-serif;
     font-weight: 400;
-    color: #{{ site.data.template.color.muted }};
+    color: #222;
 }
 
 .text-primary {
@@ -449,7 +449,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    /* margin-bottom: 75px; */
     text-transform: none;
     color: #93834E;
     font-size: 18px;
@@ -538,9 +538,9 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: 'Crete Round', serif;
+    /* font-family: 'Crete Round', serif; */
     font-size: 16px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #portfolio * {
