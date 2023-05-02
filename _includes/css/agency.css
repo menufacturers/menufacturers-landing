@@ -216,7 +216,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     color: #222;
     background-color: #{{ site.data.template.color.primary }};
@@ -432,6 +432,10 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+
+    .btn-xl {
+        font-size: 18px;
+    }
 }
 
 section {
@@ -441,7 +445,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 section h3.section-subheading {
@@ -457,6 +461,12 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section {
         padding: 150px 0;
+    }
+
+    section h2.section-heading {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 45px;
     }
 }
 
