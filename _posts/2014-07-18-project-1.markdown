@@ -1,5 +1,5 @@
 ---
-title: Information Hub
+title: Homepage
 subtitle: Find Everything In One Place
 layout: default
 modal-id: 1
