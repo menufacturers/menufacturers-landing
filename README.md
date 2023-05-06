@@ -35,4 +35,4 @@ The Agency theme is based on [Agency bootstrap theme](https://startbootstrap.com
 
 ## License
 
-The PON Capstone Project Landing Page is licensed under the [MIT License](https://github.com/your-username/plate-of-nations/blob/main/LICENSE).
+The PON Capstone Project Landing Page is licensed under the [MIT License](https://opensource.org/license/mit/).
