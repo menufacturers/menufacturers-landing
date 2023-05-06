@@ -1,30 +1,38 @@
-Agency Jekyll theme
-====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+# Plate of Nations Capstone Project Landing Page
 
-# How to use
+This is the GitHub repository for Team Menufacturers' Plate of Nations (PON) Capstone Project Landing Page.
 
-###Portfolio 
+## Getting Started
 
-Portfolio projects are in '/_posts'
+To get started with the project, clone this repository to your local machine:
 
-Images are in '/img/portfolio'
+```
+git clone https://github.com/your-username/plate-of-nations.git
+```
 
-###About
+After cloning the repository, open the `index.html` file to view the landing page in your web browser.
 
-Images are in '/img/about/'
+## Usage
 
-###Team
+The landing page is designed to showcase the PON Redesign and includes an overview of the project, key features, a video presentation, and team contact information.
 
-Team members and info are in '_config.yml'
+## Contributing
 
-Images are in '/img/team/'
+Contributions to the PON Capstone Project Landing Page are welcome. To contribute, follow these steps:
 
+1. Fork the repository
+2. Create a new branch for your changes
+3. Make your changes and commit them to your branch
+4. Push your changes to your forked repository
+5. Submit a pull request
 
-# Demo
+## Credits
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+The PON Capstone Project Landing Page was created by Team Menufacturers (Selena Ando, Jennifer Do, Grace Kim, Samuel Taylor, Jack Weinstein) for the Winter/Spring 2023 Information School Capstone at the University of Washington.
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+The Agency theme is based on [Agency bootstrap theme](https://startbootstrap.com/template-overviews/agency/).
+
+## License
+
+The PON Capstone Project Landing Page is licensed under the [MIT License](https://github.com/your-username/plate-of-nations/blob/main/LICENSE).
