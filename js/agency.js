@@ -5,66 +5,65 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+$(function () {
+  $('a.page-scroll').bind('click', function (event) {
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $($anchor.attr('href')).offset().top
+    }, 1500, 'easeInOutExpo');
+    event.preventDefault();
+  });
 });
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
-    target: '.navbar-fixed-top'
+  target: '.navbar-fixed-top'
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+$('.navbar-collapse ul li a').click(function () {
+  $('.navbar-toggle:visible').click();
 });
 
-$('div.modal').on('show.bs.modal', function() {
-	var modal = this;
-	var hash = modal.id;
-	window.location.hash = hash;
-	window.onhashchange = function() {
-		if (!location.hash){
-			$(modal).modal('hide');
-		}
-	}
+$('div.modal').on('show.bs.modal', function () {
+  var modal = this;
+  var hash = modal.id;
+  window.location.hash = hash;
+  window.onhashchange = function () {
+    if (!location.hash) {
+      $(modal).modal('hide');
+    }
+  }
 });
 
 // Fade-up animation
 const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-      } else {
-        entry.target.classList.remove('is-visible');
-      }
-    });
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+    } else {
+      entry.target.classList.remove('is-visible');
+    }
   });
-  
+});
+
 const fadeUpElements = document.querySelectorAll('.fade-up');
 fadeUpElements.forEach(element => {
   observer.observe(element);
 });
-  
+
 // Scroll to the top
-$(document).ready(function() {
-  $(window).scroll(function() {
+$(document).ready(function () {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('#scroll-to-top-btn').fadeIn();
     } else {
       $('#scroll-to-top-btn').fadeOut();
     }
   });
-  
-  $('#scroll-to-top-btn').click(function() {
-    $('html, body').animate({scrollTop : 0}, 800);
+
+  $('#scroll-to-top-btn').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 800);
     return false;
   });
 });
-    
