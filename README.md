@@ -31,7 +31,7 @@ Contributions to the PON Capstone Project Landing Page are welcome. To contribut
 
 The PON Capstone Project Landing Page was created by Team Menufacturers (Selena Ando, Jennifer Do, Grace Kim, Samuel Taylor, Jack Weinstein) for the Winter/Spring 2023 Information School Capstone at the University of Washington.
 
-The Agency theme is based on [Agency bootstrap theme](https://startbootstrap.com/template-overviews/agency/).
+The Agency theme is based on [Agency bootstrap theme](https://startbootstrap.com/theme/agency).
 
 ## License
 
