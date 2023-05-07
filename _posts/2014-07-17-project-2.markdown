@@ -10,5 +10,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Explore all the restaurants that are participating in Plate of Nations this year! There are over 50 restaurants and include different cuisine and dietary restrictions filters to help fit your needs! 
+description: Explore all the restaurants that are participating in Plate of Nations this year! See a list of 50+ restaurants and narrow down your search with filters for different cuisines and dietary restrictions. Click on “Visit Restaurant” to find more details about this year’s special menu, information about the restaurant, how to get there, and read about the owner’s story. 
 ---
