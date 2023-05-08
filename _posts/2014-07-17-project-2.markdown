@@ -4,7 +4,8 @@ subtitle: Explore Participating Restuarants
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: restaurants.png
+img: restaurant.png
+img2: restaurant2.png
 thumbnail: restaurants-thumbnail.png
 alt: image-alt
 project-date: April 2014

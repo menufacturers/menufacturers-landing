@@ -4,7 +4,8 @@ subtitle: Mark Your Food Adventure
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: passport.png
+img: passport1.png
+img2: passport2.png
 thumbnail: passport-thumbnail.png
 alt: image-alt
 project-date: April 2014
