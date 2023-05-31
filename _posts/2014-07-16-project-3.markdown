@@ -4,12 +4,13 @@ subtitle: Mark Your Food Adventure
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: passport.png
+img: passport1.png
+img2: passport2.png
 thumbnail: passport-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: We provide “Passport” tracker cards that you can use to collect stamps from the restaurants you visit.
+description: “Passport” tracker cards can be use to collect stamps from each restaurants you visit and are available for pick up at any participating Plate of Nations restaurant. Digitize your Passport by registering a valid phone number and entering a stamp code for each restaurant. Collect as many stamps as you can to be entered into raffles for fun prizes!
 
 ---

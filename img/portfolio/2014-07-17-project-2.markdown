@@ -1,0 +1,15 @@
+---
+title: Restaurant Directory
+subtitle: Explore Participating Restuarants
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: restaurant.png
+img2: restaurant2.png
+thumbnail: restaurants-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Explore all the restaurants that are participating in Plate of Nations this year! There are over 50 restaurants and include different cuisine and dietary restrictions filters to help fit your needs! 
+---
